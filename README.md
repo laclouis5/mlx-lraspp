@@ -21,5 +21,5 @@ uv run convert.py
 This script checks that the MLX model outputs a value very close to the PyTorch model (random input) and benchmarks the inference speed.
 
 ```shell
-uv run check.py
+uv run validation.py
 ```
